@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Coding Project</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div {
+            border-style: double;
+            border-color: black;
+            padding: 5px;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="bootstrap.html">The Baking Club</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="bootstrap.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="bootstrap_form.html">Register Here</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bootstrap_table.html">Location and Social Media</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   </nav>
+
+   <h1 style="background-color: gold;">Register Here</h1>
+
+   <form>
+    <div class="mb-3">
+        <label for="exampleInputFirstName" class="form-label">First Name</label>
+        <input class="form-control" id="exampleInputFirstName">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputLastName" class="form-label">Last Name</label>
+        <input class="form-control" id="exampleInputLastName">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleInputEmail">
+    </div>
+    <div class="mb-3">
+        <label for="exampleInputPhoneNumber" class="form-label">Phone Number</label>
+        <input type="number" class="form-control" id="exampleInputPhoneNumber">
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+   </form>
+    
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

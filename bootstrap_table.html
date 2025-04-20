@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Coding Project</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        div {
+            border-style: double;
+            border-color: black;
+            padding: 5px;
+            margin: 8px;
+        }
+    </style>
+</head>
+<body>
+   <nav class="navbar navbar-expand-sm" style="background-color: brown;" data-bs-theme="dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="bootstrap.html">The Baking Club</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="bootstrap.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bootstrap_form.html">Register Here</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="bootstrap_table.html">Location and Social Media</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   </nav>
+
+   <h1 style="background-color: darksalmon;">Where to Find Us</h1>
+
+   <table class="table table-striped-columns">
+    <tr class="table-warning">
+        <th scope="col">Location</th>
+        <th scope="col">Facebook</th>
+        <th scope="col">Instagram</th>
+    </tr>
+    <tr class="table-dark">
+        <td style="font-family: Georgia, 'Times New Roman', Times, serif;">3095 Crenshaw Blvd, Torrance, CA, 90601</td>
+        <td style="font-family: Georgia, 'Times New Roman', Times, serif;">The Baking Club</td>
+        <td style="font-family: Georgia, 'Times New Roman', Times, serif;">Baking Club 4ever</td>
+    </tr>
+   </table>
+    
+   <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
